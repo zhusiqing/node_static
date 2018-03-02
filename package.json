@@ -1,0 +1,16 @@
+{
+  "name": "static_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "origin": "node index.js"
+  },
+  "dependencies": {
+    "connect": "^3.6.6",
+    "handlebars": "^4.0.11",
+    "serve-index": "^1.9.1",
+    "serve-static": "^1.13.2"
+  }
+}
